@@ -4,7 +4,7 @@
 
 This project analyzes inventory data to identify parts at risk of
 stockout.\
-The dataset contains \~500 parts but only **7 stockout events (1.4%)**,
+The dataset contains \~500 parts but only **4 stockout events (1.4%)**,
 making predictive machine learning unreliable due to extreme class
 imbalance.
 
@@ -14,7 +14,7 @@ scoring framework** to prioritize high‑risk inventory items.
 ---
 ## Key Insights
 
--   Stockout events are extremely rare (1.4%)
+-   Stockout events are extremely rare (0.8%)
 -   Machine learning models can produce misleading results when event
     frequency is too low
 -   A rule‑based risk scoring system can be more effective in these
@@ -85,10 +85,10 @@ This system provides measurable operational value.
 ## Project Structure
 
 ```
-inventory-risk-analysis
+inventory-risk-decision-system
 │
 ├── README.md
-├── Inventory Risk Analysis Report.pdf
+├── Inventory Risk Decision System.pdf
 │
 ├── data_generator.py
 │
@@ -97,7 +97,7 @@ inventory-risk-analysis
 │   └── transactions.csv
 │
 ├── notebooks
-│   └── inventory_risk_analysis.ipynb
+│   └── inventory_risk_decision_system.ipynb
 │
 └── outputs
     └── figures
