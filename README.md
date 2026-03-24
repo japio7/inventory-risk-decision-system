@@ -4,7 +4,7 @@
 
 This project analyzes inventory data to identify parts at risk of
 stockout.\
-The dataset contains \~500 parts but only **4 stockout events (1.4%)**,
+The dataset contains \~500 parts but only **4 stockout events (0.8%)**,
 making predictive machine learning unreliable due to extreme class
 imbalance.
 
