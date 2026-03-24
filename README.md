@@ -35,10 +35,14 @@ scoring framework** to prioritize high‑risk inventory items.
 
 ## 📊 Risk Model Evaluation
 
-- Top 20% highest-risk items capture 71% of stockouts
-- Top 10% capture 52% of stockouts
+- Top 20% highest-risk items capture **100% of stockouts**
 
-This demonstrates the model effectively prioritizes critical inventory.
+This demonstrates the risk scoring system effectively prioritizes critical inventory
+items by concentrating all observed stockout events within the highest-risk segment.
+
+Due to the extremely low number of stockout events (4 total), results should be interpreted
+as prioritization effectiveness rather than traditional predictive performance. Small changes
+in event count can significantly impact percentage-based metrics.
 
 ___
 
